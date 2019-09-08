@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+  <test name="Include">
+    <classes>
+      <class name="testngLearning.IncludeExclude">
+      <methods> 
+<!--       <include name = "test2"  /> -->
+<!--       <include name = "test1"/> -->
+      <exclude name = "test1"/>
+      
+     </methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Include -->
+</suite> <!-- Suite -->
